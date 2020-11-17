@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <ImageView
+        style="@style/logoImg"
+        android:src="@drawable/logo"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:hint="Username"/>
+    <EditText
+        style="@style/EditTextLogin"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="40px"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/ButtonLogin"
+            android:layout_marginRight="20px"
+            android:text="Login"/>
+        <Button
+            android:id="@+id/btnReg"
+            style="@style/ButtonLogin"
+            android:text="Daftar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt">
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:src="@drawable/ig"></ImageView>
+        <TextView
+            style="@style/texIg"
+            android:text=" garden_groot">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

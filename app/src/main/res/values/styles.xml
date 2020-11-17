@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+    </style>
+    <style name="EditTextLogin">
+        <item name="android:layout_width">350px</item>
+        <item name="android:layout_height">60px</item>
+        <item name="android:textColor">@color/colorBg2</item>
+        <item name="android:layout_marginTop">15px</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">center</item>
+    </style>
+    <style name="EditTextDaftar">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60px</item>
+        <item name="android:textColor">@color/colorBg2</item>
+        <item name="android:layout_marginTop">15px</item>
+    </style>
+    <style name="ButtonLogin">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50px</item>
+        <item name="android:textColor">@color/colorBorder</item>
+        <item name="android:background">@drawable/btn_master</item>
+    </style>
+    <style name="logoImg">
+        <item name="android:layout_width">300px</item>
+        <item name="android:layout_height">150px</item>
+        <item name="android:layout_marginBottom">50px</item>
+    </style>
+    <style name="logoImgHome">
+        <item name="android:layout_width">350px</item>
+        <item name="android:layout_height">200px</item>
+        <item name="android:layout_marginTop">7pt</item>
+    </style>
+    <style name="logoImgHomeF">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70px</item>
+    </style>
+    <style name="texIg">
+        <item name="android:layout_width">40pt</item>
+        <item name="android:layout_height">50px</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">casual</item>
+    </style>
+    <style name="texPp">
+        <item name="android:layout_width">99pt</item>
+        <item name="android:layout_height">50px</item>
+        <item name="android:textColor">@color/colorBg2</item>
+    </style>
+</resources>

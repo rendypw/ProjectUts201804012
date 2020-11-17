@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="@color/colorbg">
+    <ImageView
+        style="@style/logoImgHome"
+        android:src="@drawable/logo2" />
+    <View android:layout_width="110pt"
+        android:layout_height="2dp"
+        android:background="@color/colorYellow"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="90dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnperawatan"
+            android:layout_centerHorizontal="true"
+            android:text="PERAWATAN"
+            android:textColor="@color/colorPerawatan"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnperawatan"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_perawatan"
+            android:drawableTop="@drawable/ic_perawatan"
+            android:indeterminate="false"
+            android:onClick="onclick"
+            android:padding="16dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick" />
+        </RelativeLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnbelanja"
+                    android:layout_centerHorizontal="true"
+                    android:text="BELANJA"
+                    android:textColor="@color/colorShop"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnbelanja"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/btn_shop"
+                    android:drawableTop="@drawable/ic_shop"
+                    android:indeterminate="false"
+                    android:onClick="onclick"
+                    android:padding="16dp"
+                    android:textStyle="bold"
+                    tools:ignore="OnClick" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnprofil"
+                android:layout_centerHorizontal="true"
+                android:text="OWNERS"
+                android:textColor="@color/colorProfil"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnprofil"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_profil"
+                android:drawableTop="@drawable/ic_profil"
+                android:indeterminate="false"
+                android:onClick="onclick"
+                android:padding="16dp"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:fontFamily="casual"
+            android:text="== enjoy our service =="
+            android:textColor="@color/colorYellow"
+            android:textSize="15dp"
+            android:textStyle="bold|italic" />
+    <ImageView
+        style="@style/logoImgHomeF"
+        android:src="@drawable/logo"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>
